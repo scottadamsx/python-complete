@@ -1,0 +1,13 @@
+[2024-11-15 23:44:22]
+Hi, this is my first entry to test how the chat gpt diary application works. I am not sure how this will turn out but I look forward to it...
+
+[2024-11-15 23:46:22]
+this is another entry that I will be doing. Second one for the day. Once I verify that this works, I will use chat gpt to create a tutorial to build exactly this from scratch, so that I can buold one myself. and make it just like any other thing... I would like to create this with my wordle application lol
+
+[2024-11-19 15:09:54]
+Hey, This is a random entry for me but I wanted to test how the diary is working once again. I think its funny how you have to type in the file name every time. I am getting mildly better at programming with python. I think, if I keep it up, I will be able to make my own games and stuff one day. I have big visions for my work. I think it would be so cool to be in this industry. My love for video games will drive me to create something of value to the children coming next. I want to make video games that my kids can play and hold onto and say, wow this is impressive, my dad made this. I hope that one day I can rekindle with molly and make her an integral part of my life. She is the kindest soul ive ever met, and I feel the urge to protect her, even if it may be a task that is not alloted to me. Who knows anymore with this crazy world. 
+
+Today, I had class. Math first thing this morning. We essentially finished unit 4 which is the last unit. No new material means time to complete the entire booklet from start to finish. Time to do the same thing with the python assignments. That would be fun, Now that my skills are slightly more advanced. HTML and CSS are something I have trouble with to be honest. I never took a liking to it, even though its parguably the most important language to learn. 
+
+I am not worried for any of my exams, except my WEB DEV one. I will ready myself for python and math easily. Just have to put in the effort it will take to do it all. I will also create a study guide for the Tech&Tools test 2. I got 100% on the last one but I will need to do more for this one as we have covered more material. I think I will make a habit of writing in here everyday, Change the name for the file, change the python file name, bobs your uncle. Only i will know the password lol. secret diary...
+

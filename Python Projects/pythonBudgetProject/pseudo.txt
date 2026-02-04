@@ -1,0 +1,37 @@
+SCOTTYS PYTHON BUDGET GUI
+
+Idea: I am trying to make a budget application that tracks all of your expenses. It Will have a homepage that displays your 
+current ammounts of money in your chequings and savings. It will also show your 5 next upcoming expenses and the dates they need to be payed.
+it will also track how much money I have in my TFSA, which is used to track stocks and investementsts.
+
+Features:
+
+Add Expense Button ~ The add expense button will have an option to add a special expense or a reoccurring expense. a reoccuring 
+expense can be "monthly" or "biweekly". you have the option to give the expense a name, date, next date, value, importance level, !!!, !! or !
+
+you can press, add pay amount. this will determine your values for the next couple weeks.
+
+if you have any debts, you can choose to pay that off with your values. 
+
+values will be presented in percentage, in a "set values" button. This will have to end up in 100% or will display an error.
+ 
+  dial up 
+  open main window 
+
+  display label for money. 
+  display money. 
+
+  in top right corner, have values. 
+  Savings: 20%
+  chequings: 30%
+  investementsts: 10%
+  debt: 40%
+
+button to change values: 
+
+    Set values window will pop up
+
+
+
+
+
