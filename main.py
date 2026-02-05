@@ -38,12 +38,23 @@ from modules.assignment3 import project4_4 as P44
 from modules.assignment3 import project4_5 as P45
 from modules.assignment3 import project4_6 as P46
 
+# Assignment 4 Imports
+from modules.assignment4 import project6_1 as P61
+from modules.assignment4 import project6_2 as P62
+from modules.assignment4 import project6_3 as P63
+from modules.assignment4 import project6_4 as P64
+from modules.assignment4 import project6_5 as TTT
+
+
 # tipCalculatorGui Import
 #from modules.tipCalculatorGui import main as GUI
 
 # Wordle Imports
 from modules.wordle_project import wordle_simulator_v1 as WDL
 from modules.wordle_project import wordle_helper_Variant1 as WDH
+
+# Budget imports
+from modules import pythonBudget as BGT
 
 
 
@@ -59,8 +70,10 @@ def mainMenu():
     print("\nMAIN PROJECT DIRECTORY\nPlease enter a valid project code: ")
     print("BJ: BlackJack (broken)")
     print("GUI: My first Tkinter GUI")
+    print("TTT: Tic Tac Toe")
     print("WDL: Wordle Simulator v1")
     print("WDH: Wordle Helper v1")
+    print("BGT: Scotty's Python Budget App")
     print("P21: Resistration Form")
     print("P22: Paycheck Calculator")
     print("P23: Tip Calculator")
@@ -78,6 +91,11 @@ def mainMenu():
     print("P44: Sales Tax Calculator")
     print("P45: Dice Roller")
     print("P46: Get the Factors of a Number")
+    print("P61: Prime Number Checker")
+    print("P62: Wizard Inventory")
+    print("P63: Contact Manager")
+    print("P64: Quarterly Sales")
+    
     print("Q: Quit")
 
     while True:
@@ -97,6 +115,11 @@ def mainMenu():
 
         elif option == "WDL":
             WDH.main()
+        # ==============================
+
+        # BUDGET APP ===================
+        elif option == "BGT":
+            BGT.main()
         # ==============================
 
         # ASSIGNMENT 1 =================
@@ -154,6 +177,23 @@ def mainMenu():
 
         elif option == "P46":
             P46.main()
+        # =============================
+
+        # ASSIGNMENT 4 ================
+        elif option == "P61":
+            P61.main()
+
+        elif option == "P62":
+            P62.main()
+            
+        elif option == "P63":
+            P63.main()
+
+        elif option == "P64":
+            P64.main()
+
+        elif option == "TTT":
+            TTT.main()
         # =============================
         
 
