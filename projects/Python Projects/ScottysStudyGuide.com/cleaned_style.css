@@ -1,0 +1,236 @@
+/* General Reset and Base Styles */
+@font-face {
+    font-family: 'TitleFont';
+    src: url('fonts/StardewValley.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BodyFont';
+    src: url('fonts/Stardew-Valley-Regular.ttf') format('truetype');
+}
+
+/* Apply the custom font to desired elements */
+body {
+    font-family: 'TitleFont', sans-serif;
+    font-size: 10x;
+
+}
+
+/* Apply the custom font to desired elements */
+header {
+    font-family: 'BodyFont', sans-serif;
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+/*box-sizing: border-box;*/
+    font-family:'TitleFont', sans-serif;
+}
+
+body {
+    line-height: 1;
+    color: #333;
+    background: #f4f4f9;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    background-image: url("stardew_banner.jpg");
+    background-size: 100% auto;
+    height: 300px;
+    
+
+/* background: linear-gradient(45deg, #6a11cb, #2575fc); */
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color:orange;
+    font-size: 90px;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px black;
+}
+
+header h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    color:orange;
+    margin-top: 3px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color:#6a11cb;
+    font-size:25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd59;
+}
+
+/* Main Content */
+h3 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: #2575fc;
+}
+
+p {
+    margin: 1rem 0;
+    line-height: 1.8;
+    font-size: 22px;
+}
+
+button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+/* Footer */
+footer {
+    background-image: url("footer.jpeg");
+    color:black;
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.footer-content .footer-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-content p, .footer-content ul {
+    font-size: 1.2rem;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-content ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-content ul li a:hover {
+    color: #ffdd59;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+    font-size:1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content .footer-section {
+        margin: 1rem 0;
+    }
+}
+
+table tr td {
+    border: solid black 1px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px;
+}
+/* table row height*/
+tr {
+    line-height: 2em;
+
+}
+
+table {
+    margin-right: 8em;
+    margin-left: 8em;
+
+}
+
+.current-page {
+    color:orange;
+}
+
+body { line-height: 1.6;
+        color: black;
+background-color:#ecac28; /* New background color */
+        padding: 1rem;
+    }
+h2, h3 {
+    color: #2575fc;
+    text-shadow:1px 1px black;
+}
+
+.page-title {
+    color:rgb(103, 43, 171);
+    text-align:left;
+    text-shadow:1px 1px black;
+    font-size:50px;
+}

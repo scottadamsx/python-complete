@@ -1,0 +1,26 @@
+Scotty,2210,1,States Avenue|New York Avenue|Mediterranean Avenue,
+Adam,2060,29,Virginia Avenue|Marvin Gardens,
+Nathan,1630,34,St. James Place|Ventnor Avenue|Pennsylvania Avenue,
+===PROPERTIES===
+Mediterranean Avenue,60,Purple,50,0,2,10,30,90,160,250,30,Scotty
+Baltic Avenue,60,Purple,50,0,4,20,60,180,320,450,30,none
+Oriental Avenue,100,Light Blue,50,0,6,30,90,270,400,550,50,none
+Vermont Avenue,100,Light Blue,50,0,6,30,90,270,400,550,50,none
+Connecticut Avenue,120,Light Blue,50,0,8,40,100,300,450,600,60,none
+St. Charles Place,140,Violet,100,0,10,50,150,450,625,750,70,none
+States Avenue,140,Violet,100,0,10,50,150,450,625,750,70,Scotty
+Virginia Avenue,160,Violet,100,0,12,60,180,500,700,900,80,Adam
+St. James Place,180,Orange,100,0,14,70,200,550,750,950,90,Nathan
+Tennessee Avenue,180,Orange,100,0,14,70,200,550,750,950,90,none
+New York Avenue,200,Orange,100,0,16,80,220,600,800,1000,100,Scotty
+Kentucky Avenue,220,Red,150,0,18,90,250,700,875,1050,110,none
+Indiana Avenue,220,Red,150,0,18,90,250,700,875,1050,110,none
+Illinois Avenue,240,Red,150,0,20,100,300,750,925,1100,120,none
+Atlantic Avenue,260,Yellow,150,0,22,110,330,800,975,1150,130,none
+Ventnor Avenue,260,Yellow,150,0,22,110,330,800,975,1150,130,Nathan
+Marvin Gardens,280,Yellow,150,0,24,120,360,850,1025,1200,140,Adam
+Pacific Avenue,300,Green,200,0,26,130,390,900,1100,1275,150,none
+North Carolina Avenue,300,Green,200,0,26,130,390,900,1100,1275,150,none
+Pennsylvania Avenue,320,Green,200,0,28,150,450,1000,1200,1400,160,Nathan
+Park Place,350,Blue,200,0,35,175,500,1100,1300,1500,175,none
+Boardwalk,400,Blue,200,0,50,200,600,1400,1700,2000,200,none

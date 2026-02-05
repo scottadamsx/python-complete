@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ex {
+            border: solid 1px red;
+            font-family: 'Courier New', Courier, monospace;
+            color:darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scott's Study Guide</h1>
+        <h4>Semester One</h4>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="python_examStudyGuide.html" class="current-page">Python Guide</a></li>
+                <li><a href="webdev_examStudyGuide.html">Web Development</a></li>
+                <li><a href="problem_solving_for_it_examStudyGuide.html">Problem Solving for IT</a></li>
+                <li><a href="grades.html">Course Grades</a></li>
+                <li><a href="about.html">About The Developer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1 class="page-title">Scotty's Python Review</h1>
+    <h2>Major Topics/Units</h2>
+    <nav>
+        <ol>
+            <a href="#unit1"><li>Introduction to Computer Programs</li></a>
+            <a href="#unit2"><li>Data and Variables</li></a>
+            <a href="#unit3"><li>Program Logic</li></a>
+            <a href="#unit4"><li>Debugging Code</li></a>
+            <a href="#unit5"><li>String Manipulation</li></a>
+            <a href="#unit6"><li>Functional Programming</li></a>
+            <a href="#unit7"><li>Sequential File Processing</li></a>
+            <a href="#unit8"><li>Writing Error-Free code</li></a>
+            <a href="#unit9"><li>Collections</li></a>
+        </ol>
+    </nav>
+
+    <section id="unit1">
+        <h3>Introduction to Computer Programs</h3>
+        <h4>1.1: Steps of Program Development Process</h4>
+        <h4>1.2: The Importance of Logic Tools</h4>
+        <h4>1.3: State the Function of Logic Tools Including</h4>
+      
+    </section>
+    
+    <section id="unit2">
+        <h3>Data and Variables</h3>
+        <h4>2.1: Variable Types</h4>
+            <p>In programming, variables are used to store data. The type of a variable determines the kind of data it can hold. Here’s a breakdown of common variable types:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variable Type</th><th>Description</th><th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>String</td>
+                        <td>This is a text variable made up with characters and surrounded by "", to indicate its a string</td>
+                        <td><span class="ex">myData = "Hello, Paul Drover!"</span></td>
+                    </tr>
+                    <tr>
+                        <td>Integer</td>
+                        <td>This is a whole number (positive or negative) without decimals, used to do simple calculations</td>
+                        <td><span class="ex">myData = 42069</span></td>
+                    </tr>
+                    <tr>
+                        <td>Float</td>
+                        <td>This is a decimal number data type. used for specific calculations</td>
+                        <td><span class="ex">myData = 42069</span></td>
+                    </tr>
+                    <tr>
+                        <td>Boolean</td>
+                        <td>boolean is used to evaluate weither something is True or False. used in calculations and to compare data</td>
+                        <td><span class="ex">True or False</span></td>
+                    </tr>
+                    <tr>
+                        <td>List</td>
+                        <td>a container of ordered variables (of any type), without a variable name but rather a "List Index" starting at 0. These values are seperated using a "," and surrounded by " [ ] "</td>
+                        <td><span class="ex">myData = ["john", "3 Mccallum Pl, Abbotsford", 2012, 2344343.56]</span></td>
+                    </tr>
+                    <tr>
+                        <td>Tuple</td>
+                        <td>essentially a list, however it is not mutable as a list is. This means that the data cannot be changed while it can in a list. so, yeah... Lists you can change, Tuples you CANNOT!</td>
+                        <td><span class="ex">myData = (34, 54, 56, 87, 43, 78)</span></td>
+                    </tr>
+                    <tr>
+                        <td>Dictionary</td>
+                        <td>An unordered version of a list, where instead of a list index, it is given a "key" that is used to call it</td>
+                        <td><span class="ex">myData = {"name":"Riley Druken", "email":"riley32druken@outlook.com", "instagram":"rileyrilez"}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        <h4>2.2: Relational and Arithmetic Operators</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Opperator</th><th>Description</th><th>example use</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>the = opperator</td>
+                        <td>used to assign a variable to something. to the left of the = sign, is where the variable name goes. to the right is where its value or data goes</td>
+                        <td><span class="ex">myData = "Hello, Software Develly gang"</span></td>
+                    </tr>
+                    <tr>
+                        <td>the ==  opperator</td>
+                        <td>this is used to compare two variables or values to eachother. If they match, it returns a boolean value of <span class="ex">True</span>, otherwise it will return <span class="ex">False</span></td>
+                        <td><span class="ex">5 = 3 + 2</span> this would return True</td>
+                    </tr>
+                    <tr>
+                        <td>the + and - opperator</td>
+                        <td>used to add and subtract in python</td>
+                        <td><span class="ex">total = 39 + 15</span></td>
+                    </tr>
+                    <tr>
+                        <td>the * and / opperator</td>
+                        <td>used to multiply and divide in python</td>
+                        <td><span class="ex">average = total / 21</span></td>
+                    </tr>
+                    <tr>
+                        <td>the // opperator</td>
+                        <td>this is called integer division, and its used to divide and throw away the remainder</td>
+                        <td><span class="ex">29 / 5 = 5</span></td>
+                    </tr>
+                    <tr>
+                        <td>the % opperator</td>
+                        <td> this will ONLY return the remainder in a division equation</td>
+                        <td><span class="ex">29 % 5 = 4</span> remainder of 4</td>
+                    </tr>
+                    <tr>
+                        <td>the ** opperator</td>
+                        <td>Used to represent an exponent</td>
+                        <td><span class="ex">num = 5<br>num ** 2 = 25</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        <h4>2.3: Discuss Programming Language Syntax</h4>
+    </section>
+    
+    <section id="unit3">
+        <h3>Program Logic</h3>
+        <h4>3.1: Discuss Sequences</h4>
+        <h4>3.2: Use Logic Tool to Develop a Plan for Coding Applications Using Conditional Logic</h4>
+        <h4>3.3: Compare the Various Looping Structures (while, for)</h4>
+    </section>
+    
+    <section id="unit4">
+        <h3>Debugging Code</h3>
+    
+        <h4>4.1: Debugging Techniques</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Technique</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Breakpoints</strong></td>
+                    <td>Stop program execution at a certain line to inspect the state of variables and control flow.</td>
+                </tr>
+                <tr>
+                    <td><strong>Step Over</strong></td>
+                    <td>Execute the current line and skip over any function calls within it.</td>
+                </tr>
+                <tr>
+                    <td><strong>Step Into</strong></td>
+                    <td>Enter the function and pause at the first line, allowing deeper inspection.</td>
+                </tr>
+                <tr>
+                    <td><strong>Watch Variables</strong></td>
+                    <td>Monitor the value of variables during execution to track changes and identify problems.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>4.2: Tracing Techniques</h4>
+        <ul>
+            <li><strong>Print Statements:</strong> Insert print statements to display variable values and flow during execution.</li>
+            <li><strong>Logging:</strong> Use the logging module to capture detailed information about the program's execution flow.</li>
+            <li><strong>Traceback:</strong> Python provides traceback information when errors occur, which helps in locating the error in the code.</li>
+        </ul>
+    
+        <h4>4.3: Example of Debugging Code</h4>
+        <pre class="ex">
+    def divide(a, b):
+        print(f"Dividing {a} by {b}")  # Trace input
+        if b == 0:
+            print("Error: Division by zero!")
+            return None
+        return a / b
+    
+    result = divide(10, 0)  # Debugging step here
+    print(result)
+        </pre>
+    </section>
+    
+    
+    
+    <section id="unit5">
+        <h3>String Manipulation</h3>
+            <h4>5.1: Create Strings</h4>
+                <p>You can create a string in python by simply surrounding text with <span class="ex">""</span> or <span class="ex">''</span>. Ex: <span class="ex">my_string = "Hello World"</span></p>
+                <p>You can also create a block string, which is surrounded by <span class="ex">""" this is a block string """</span></p>
+            <h4>5.2: Process Strings</h4>
+                <p>There are many ways to process a string, here's a table of common helpful string methods to refer to</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Method</th>
+                            <th>function</th>
+                            <th>In-Depth Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>string concatenation</td>
+                            <td>adds two or more strings</td>
+                            <td>you can add two or more strings together by using the <span>+</span> operator.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">len("string")</span></td>
+                            <td>returns the legnth of the argument</td>
+                            <td>You can use len to get the length of a string or list, len() will count the the data and return a value depending on that variable type</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.title()</span></td>
+                            <td>Capitalizes every word in the String</td>
+                            <td>this function does not need any arguments, it will simply return the string with capitalized letters</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.lower()</span></td>
+                            <td>converts the entire string to lowercase</td>
+                            <td>the lower method doesnt need any arguments and it will ensure that the string is in lowercase</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.upper()</span></td>
+                            <td>converts the entire string to uppercase</td>
+                            <td>exact opposite of .lower()</td>
+                        </tr>
+                        <tr>
+                            <td>String Comparison<span class="ex">=</span></td>
+                            <td>compares if two strings are equal to eachother</td>
+                            <td>you can evaluate to see if two strings match, if they don't match, it will return <span class="ex">False</span>, If they do match, it will return <span class="ex">True</span></td>
+                        </tr>
+                        <tr>
+                            <td>String Comparison<span class="ex">!=</span></td>
+                            <td>checks if strings are NOT equal to eachother</td>
+                            <td>if the strings are different, it will return <span class="ex">True</span>. if they are equal, it will return <span class="ex">False</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.isnumeric()</span></td>
+                            <td>this returns true if the string is only numbers</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.find()</span></td>
+                            <td>finds a small part of a string</td>
+                            <td>the find method finds the first instance of the argument and returns the index number where you can find this in the string. If there is no instance of it in the string, it will return "-1" <span>"hello, world!".find("world") will return "7"</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">slicing</span></td>
+                            <td>you can access only a certain section of a string</td>
+                            <td><span class="ex">string = "Scott spent a lot of time on this", string[6:11] will output: "spent"</span> you can call the starting index, and then the ending index is gonna be where it stops. NOTE: this will not be included. Make sure that your ending index +1 than the last character that you wanna grab.</td>
+                        </tr>
+                    </tbody>
+                        <tr>
+                            <td><span class="ex">string[::-1]</span></td>
+                            <td>reverses the string</td>
+                            <td>uses the slicing method, you can print your string with a step of "-1"</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.strip()</span></td>
+                            <td>this will remove any trailing whitespace from your string</td>
+                            <td>leaving this blnk will remove any " " from the beggining and end of your string. You can optionally add an argument of characters you wanna remove from the string only at the beggining and end. this will not affect characters within the string</td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.lstrip()</span></td>
+                            <td>a sub method of strip that only strips the left side</td>
+                            <td>leaving this blnk will remove any " " from the beggining and end of your string. You can optionally add an argument of characters you wanna remove from the string only at the beggining and end. this will not affect characters within the string</td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.rstrip()</span></td>
+                            <td>a sub method of strip that only strips the right side</td>
+                            <td>leaving this blnk will remove any " " from the beggining and end of your string. You can optionally add an argument of characters you wanna remove from the string only at the beggining and end. this will not affect characters within the string</td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="ex">.split()</span></td>
+                            <td>takes a string and splits it into a list dividing by a <u>Delimiter</u></td>
+                            <td>If you leave the argument blank, python will automatically delimit by " ", but you can set this to be a particular value</td>
+                        </tr>
+                    </tbody>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+
+            <h4>5.3: Write Code that Uses Available Methods to Manipulate Strings</h4>
+    </section>
+    
+    <section id="unit6">
+        <h3>Functional Programming</h3>
+    
+        <h4>6.1: Functions with and without Return Values</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Definition</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Function with Return Value</strong></td>
+                    <td>A function that returns a result to the caller using the <code>return</code> keyword.</td>
+                    <td><pre class="ex">def add(a, b): return a + b</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Function without Return Value</strong></td>
+                    <td>A function that performs an action but does not return any result.</td>
+                    <td><pre class="ex">def greet(name): print(f"Hello, {name}!")</pre></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>6.2: Functions in Control Structures</h4>
+        <ul>
+            <li><strong>Using Functions in If Statements:</strong> Functions can return values that are evaluated in conditional statements.</li>
+            <li><strong>Using Functions in Loops:</strong> Functions can be called repeatedly inside loops to perform an action or calculation.</li>
+        </ul>
+    
+        <h4>6.3: Passing Arguments by Reference and Value</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Passing Type</th>
+                    <th>Explanation</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Passing by Value</strong></td>
+                    <td>When immutable objects (like strings and integers) are passed, a copy is made, and changes do not affect the original object.</td>
+                    <td><pre class="ex">def modify_string(s): s = "Modified" return s</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Passing by Reference</strong></td>
+                    <td>When mutable objects (like lists or dictionaries) are passed, the original object is modified.</td>
+                    <td><pre class="ex">def modify_list(lst): lst.append(4)</pre></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>6.4: Example of Passing by Reference and Value</h4>
+        <pre class="ex">
+    # Passing by value (string)
+    original = "Original"
+    modified = modify_string(original)
+    print(original)  # Output: Original
+    print(modified)  # Output: Modified
+    
+    # Passing by reference (list)
+    my_list = [1, 2, 3]
+    modify_list(my_list)
+    print(my_list)  # Output: [1, 2, 3, 4]
+        </pre>
+    </section>
+    
+    
+    
+    <section id="unit7">
+        <h3>Sequential File Processing</h3>
+    
+        <h4>7.1: Definitions</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Term</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Text File</strong></td>
+                    <td>A file that contains human-readable characters, typically encoded as ASCII or UTF-8.</td>
+                </tr>
+                <tr>
+                    <td><strong>Binary File</strong></td>
+                    <td>A file that contains data in a format that is not human-readable, often used for images, audio, and other media.</td>
+                </tr>
+                <tr>
+                    <td><strong>CSV (Comma Separated Values)</strong></td>
+                    <td>A plain text file format that stores tabular data, with each line representing a row and each value separated by commas.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>7.2: Methods for File Handling</h4>
+        <ul>
+            <li><strong>Creating a File:</strong> To create a file, open it in write mode (`w`). If the file doesn't exist, Python will create it.</li>
+            <li><strong>Reading a File:</strong> Use read (`r`) mode to open a file for reading. You can read the entire content or line by line.</li>
+            <li><strong>Writing to a File:</strong> Use write (`w`) mode to write data to a file. It will overwrite the existing content.</li>
+            <li><strong>Appending to a File:</strong> Open the file in append (`a`) mode to add content to the end without erasing existing data.</li>
+        </ul>
+        
+        <h4>7.3: File Handling Example</h4>
+        <p>Here’s an example of creating, writing, and reading a text file:</p>
+        <pre class="ex">
+    # Creating and writing to a file
+    with open("example.txt", "w") as file:
+        file.write("Hello, World!\n")
+        file.write("This is a text file.")
+    
+    # Reading from a file
+    with open("example.txt", "r") as file:
+        content = file.read()
+        print(content)  # Output: "Hello, World!\nThis is a text file."
+        </pre>
+    </section>
+    
+    
+    <section id="unit8">
+        <h3>Writing Error-Free Code</h3>
+    
+        <h4>8.1: Explain Exceptions and Error Handling</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Term</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Exception</strong></td>
+                    <td>An error that occurs during the execution of a program that interrupts its normal flow.</td>
+                </tr>
+                <tr>
+                    <td><strong>Error Handling</strong></td>
+                    <td>The process of catching and managing exceptions to ensure that the program doesn't crash and provides useful feedback.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>8.2: Write Code that Uses Try, Except, Else, and Finally Blocks to Trap and Handle Errors</h4>
+        <ul>
+            <li><strong>try:</strong> Contains the code that might raise an exception.</li>
+            <li><strong>except:</strong> Handles specific exceptions if they occur during the execution of the try block.</li>
+            <li><strong>else:</strong> Executes if no exceptions were raised.</li>
+            <li><strong>finally:</strong> Always executes, regardless of whether an exception occurred, useful for cleanup actions (like closing files).</li>
+        </ul>
+        <pre class="ex">
+    try:
+        x = 10 / 0  # This will raise a ZeroDivisionError
+    except ZeroDivisionError:
+        print("Cannot divide by zero!")
+    else:
+        print("Division successful!")
+    finally:
+        print("This will always run, regardless of the error.")
+        </pre>
+    
+        <h4>8.3: Write Code to Raise Exceptions</h4>
+        <p>You can raise exceptions manually using the <code>raise</code> keyword to enforce conditions in your program.</p>
+        <pre class="ex">
+    def check_age(age):
+        if age < 18:
+            raise ValueError("Age must be 18 or older.")
+        return age
+    
+    try:
+        check_age(16)
+    except ValueError as e:
+        print(f"Error: {e}")
+        </pre>
+    
+        <h4>8.4: Write Assert Statements to Enforce Conditions</h4>
+        <p>Assert statements are used to check if a condition is True. If it isn't, an AssertionError is raised.</p>
+        <pre class="ex">
+    age = 20
+    assert age >= 18, "Age must be 18 or older."  # This will pass as the condition is true
+    
+    age = 16
+    assert age >= 18, "Age must be 18 or older."  # This will raise an AssertionError
+        </pre>
+    </section>
+    
+    
+    <section id="unit9">
+        <h3>Collections</h3>
+    
+        <h4>9.1: List Operations</h4>
+        <p>Lists are ordered collections that can hold multiple items, and you can modify the list’s elements. Lists are defined with square brackets <code>[ ]</code>.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Definition</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Appending</strong></td>
+                    <td>Adding an item to the end of the list using <code>append()</code>.</td>
+                    <td><pre class="ex">my_list = [1, 2, 3] <br>my_list.append(4)  # Output: [1, 2, 3, 4]</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Inserting</strong></td>
+                    <td>Inserting an item at a specified position using <code>insert()</code>.</td>
+                    <td><pre class="ex">my_list = [1, 2, 3] <br>my_list.insert(1, 4)  # Output: [1, 4, 2, 3]</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Removing</strong></td>
+                    <td>Removing an item by value using <code>remove()</code> or by index using <code>pop()</code>.</td>
+                    <td><pre class="ex">my_list = [1, 2, 3] <br>my_list.remove(2)  # Output: [1, 3] <br>my_list.pop(1)  # Output: 3, my_list: [1]</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Sorting</strong></td>
+                    <td>Sorting the list in ascending or descending order using <code>sort()</code>.</td>
+                    <td><pre class="ex">my_list = [3, 1, 2] <br>my_list.sort()  # Output: [1, 2, 3]</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Reversing</strong></td>
+                    <td>Reversing the order of elements using <code>reverse()</code>.</td>
+                    <td><pre class="ex">my_list = [1, 2, 3] <br>my_list.reverse()  # Output: [3, 2, 1]</pre></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>9.2: Dictionary Operations</h4>
+        <p>Dictionaries store key-value pairs, and you can retrieve, add, and modify data using keys. Dictionaries are defined with curly braces <code>{ }</code>.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Definition</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Adding/Updating</strong></td>
+                    <td>Adding or updating a key-value pair in a dictionary.</td>
+                    <td><pre class="ex">my_dict = {"name": "Alice"} <br>my_dict["age"] = 25  # Output: {"name": "Alice", "age": 25}</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Accessing</strong></td>
+                    <td>Accessing values using keys.</td>
+                    <td><pre class="ex">my_dict = {"name": "Alice", "age": 25} <br>name = my_dict["name"]  # Output: Alice</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Removing</strong></td>
+                    <td>Removing a key-value pair using <code>pop()</code> or <code>del</code>.</td>
+                    <td><pre class="ex">my_dict = {"name": "Alice", "age": 25} <br>my_dict.pop("age")  # Output: 25, my_dict: {"name": "Alice"}</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Keys and Values</strong></td>
+                    <td>Getting all keys or all values using <code>keys()</code> and <code>values()</code>.</td>
+                    <td><pre class="ex">my_dict = {"name": "Alice", "age": 25} <br>keys = my_dict.keys()  # Output: dict_keys(['name', 'age'])</pre></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>9.3: Set Operations</h4>
+        <p>Sets are unordered collections of unique items. They are defined using curly braces <code>{ }</code>, and they do not allow duplicates.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Definition</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Adding</strong></td>
+                    <td>Adding an element to a set using <code>add()</code>.</td>
+                    <td><pre class="ex">my_set = {1, 2, 3} <br>my_set.add(4)  # Output: {1, 2, 3, 4}</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Removing</strong></td>
+                    <td>Removing an element from a set using <code>remove()</code> or <code>discard()</code>.</td>
+                    <td><pre class="ex">my_set = {1, 2, 3} <br>my_set.remove(2)  # Output: {1, 3}</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Set Operations</strong></td>
+                    <td>Performing mathematical set operations such as union, intersection, and difference.</td>
+                    <td><pre class="ex">set_a = {1, 2, 3} <br>set_b = {3, 4, 5} <br>union = set_a | set_b  # Output: {1, 2, 3, 4, 5}</pre></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h4>9.4: Tuple Operations</h4>
+        <p>Tuples are ordered collections, like lists, but they are immutable. Once created, you cannot change the items in a tuple. They are defined with parentheses <code>( )</code>.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Definition</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Accessing</strong></td>
+                    <td>Accessing items in a tuple by index.</td>
+                    <td><pre class="ex">my_tuple = (1, 2, 3) <br>item = my_tuple[1]  # Output: 2</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Concatenation</strong></td>
+                    <td>Concatenating two tuples using the <code>+</code> operator.</td>
+                    <td><pre class="ex">my_tuple = (1, 2) <br>new_tuple = my_tuple + (3, 4)  # Output: (1, 2, 3, 4)</pre></td>
+                </tr>
+                <tr>
+                    <td><strong>Repetition</strong></td>
+                    <td>Repeating a tuple using the <code>*</code> operator.</td>
+                    <td><pre class="ex">my_tuple = (1, 2) <br>repeated = my_tuple * 3  # Output: (1, 2, 1, 2, 1, 2)</pre></td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </section>
+    
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>
+                    Your trusted partner in exam preparation. Dedicated to helping students succeed in their academic journey.
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="placeholder.html">Exam Guides</a></li>
+                    <li><a href="grades.html">Grades</a></li>
+                    <li><a href="placeholder.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section policies">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="placeholder.html">Privacy Policy</a></li>
+                    <li><a href="placeholder.html">Terms of Use</a></li>
+                    <li><a href="placeholder.html">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Exam Review | All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
