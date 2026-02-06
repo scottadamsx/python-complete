@@ -1,4 +1,4 @@
-from main import check_for_monopoly
+
 def make_trade(currentPlayer, playerList):
     trader = currentPlayer
     print(f"\n{trader.name}'s turn to create an offer!")

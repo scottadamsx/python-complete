@@ -1,6 +1,6 @@
 #! usr/bin/env python3
 
-from classes import property, player
+from .classes import property, player
     
 def initialize_properties():
     mediterranean_avenue = property("Mediterranean Avenue", 60, "Purple", 50, 0, 2, 10, 30, 90, 160, 250, 30)

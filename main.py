@@ -45,6 +45,8 @@ from modules.assignment4 import project6_3 as P63
 from modules.assignment4 import project6_4 as P64
 from modules.assignment4 import project6_5 as TTT
 
+# Monopoly Banker Imports
+from modules.monopolyBankerConsole import main as MonopolyBanker
 
 # tipCalculatorGui Import
 #from modules.tipCalculatorGui import main as GUI
@@ -70,6 +72,7 @@ def mainMenu():
     print("\nMAIN PROJECT DIRECTORY\nPlease enter a valid project code: ")
     print("BJ: BlackJack (broken)")
     print("GUI: My first Tkinter GUI")
+    print("MPY: Monopoly Banker")
     print("TTT: Tic Tac Toe")
     print("WDL: Wordle Simulator v1")
     print("WDH: Wordle Helper v1")
@@ -115,6 +118,11 @@ def mainMenu():
 
         elif option == "WDL":
             WDH.main()
+        # ==============================
+
+        # MONOPOLY BANKER ===================
+        elif option == "MPY":
+            MonopolyBanker.main()
         # ==============================
 
         # BUDGET APP ===================

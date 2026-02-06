@@ -1,15 +1,15 @@
 #! usr/bin/env python3
 
 import random
-import save_game
-from classes import property, player
+from .save_game import save_game
+from .classes import property, player
 # import the make trade function
-import trade
+from . import trade
 # import the buy and sell houses functions
-from houses import buy_house_menu, sell_house_menu
+from .houses import buy_house_menu, sell_house_menu
 # imports the initilize game module which is responsible for creating the board with blank properties
-from initialize_game import initialize_board, initialize_properties, initialize_players, initilize_monopolies
-from special_spots import handle_special_spot
+from .initialize_game import initialize_board, initialize_properties, initialize_players, initilize_monopolies
+from .special_spots import handle_special_spot
 
 
 def choose_random_property(properties):

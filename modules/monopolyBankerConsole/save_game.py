@@ -1,5 +1,5 @@
 import csv
-from classes import player, property
+from .classes import player, property
 
 def save_game(FILENAME, playerList, propertyList):
     with open(FILENAME, "w") as file:
